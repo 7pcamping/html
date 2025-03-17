@@ -1,0 +1,109 @@
+<! DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width",
+          initial-scale=1">
+    <title>This is my Enquiry page
+    </title>
+
+</head>
+<body>
+         <fieldset>
+             <legend> Enquiry Form</legend>
+         <form method="" action="">
+
+             <label>Name</label></br>
+             <input type="text"pattern="[a-zA-Z ]{3,40}" required name = "" minlength="5" maxlength="20" placeholder="Enter The Name" />
+             <br/>
+             <label>Password</label><br/>
+             <input type="Password" /><br/>
+
+
+
+             <label>Degree</label><br/>
+             <input type="text" placeholder="Enter your degree"/><br/>
+             <label>Country</label><br/>
+             <select>
+                 <option>----Select Country----</option>
+                 <option value="India">India</option>
+                 <option value="US">US</option>
+                 <option value="Bihar">Bihar</option>
+                 <option value="UttarPradesh">UttarPradesh</option>
+                 <option value="MadhyaPradesh">MadhyaPradesh</option>
+                 <option value="Jharkhand">Jharkhand</option><br/>
+
+
+
+
+
+             </select><br/>
+             <label> Age</label><br/>
+             <input type="text" placeholder="Enter your age"/><br/>
+             <label> Email</label><br/>
+             <input type="email" placeholder="Enter your email"/><br/>
+             <label> YourPhoneNo</label><br/>
+             <input type="tel" pattern="[0-9]{10}" title="Enter tha valid phone No" placeholder="Enter your PhoneNo"/><br/>
+             <label>Course</label><br/>
+             <input type="checkbox" value="java" /> java <input type="checkbox" value="java"/>C
+             <input type="checkbox" value="java"/> C++ <input type="checkbox" value="sql"/> sql<br/>
+             <label>Gender</label><br/>
+             <input type="radio" value="male" name="gender"/> Male
+             <input type="radio" value="female" name="gender"/> Female<br/>
+             <label>Photo</label><br/>
+             <input type="File" /><br/>
+             QTY <br/>
+             <input type="number" min="1" max="10"/><br/>
+             DATE <br/>
+             <input type="Date" /> <br/>
+             TIME <br/>
+             <input type="time"/><br/>
+             WEEK <br/>
+             <input type="week"/> <br/>
+             MONTH <br/>
+             <input type="month"/> <br/>
+             Color <br/>
+             <input type="color"/><br/>
+             URL <br/>
+             <input type="url"/><br/>
+             Range <br/>
+             <input type="range"/><br/>
+             <br/>
+             <input type="text" list="course">
+             <datalist id="course">
+                 <option value="php" />
+                 <option value="Java"/>
+                 <option value="C++"/>
+                 <option value="C"/>
+             </datalist><br/>
+
+
+
+             <br/>
+             <label>Course</label><br/>
+             <select>
+                 <optgroup label="FrontEnd">
+                     <option>HTML</option>
+                     <option>CSS</option>
+                     <option>JS</option>
+                 </optgroup>
+                 <optgroup label="BackEnd">
+                     <option>PHP</option>
+                     <option>NODE</option>
+                     <option>MYSQL</option>
+                 </optgroup>
+
+             </select><br/>
+             
+             <label>Message</label><br/>
+             <textarea></textarea><br/>
+
+
+             <button type="submit">Save</button>
+             <input type="Submit" value="submit"/><br/>
+             <button>Reset</button><br/>
+             <input type="range" value="Reset"/><br/>
+         </form>
+         </fieldset>
+</body>
+</html>
